@@ -64,15 +64,17 @@
 
 2. JPA
 
-  ![다운로드6](https://github.com/namgisung/webserver-Restful-API/assets/109130108/717b94bc-2478-4d99-b1dd-b2f845ba283c)
+  ![다운로드109](https://github.com/namgisung/webserver-Restful-API/assets/109130108/f96c46ba-492d-48ed-81d7-0b2a507b1fc6)
 
-  JPA (Java Persistent API) 란, Java ORM 기술에 대한 API 표준 명세로, Java에서 제공하는 API이다.
+  JPA는 Java Persistence API의 약자로, 자바 애플리케이션에서 관계형 데이터베이스를 사용하는 방법을 정의한 APId이다. 
+  JPA는 자바 객체와 데이터베이스 테이블 간의 매핑을 관리하며, 이를 통해 개발자는 데이터베이스 작업을 더 쉽고 직관적으로 
+  수행할 수 있습니다.
 
-  즉, JPA는 ORM을 사용하기 위한 표준 인터페이스를 모아둔 것.
+  JPA는 아래의 세 가지 영역으로 구성된다.
 
-  ORM이란, 어플리케이션 class와 RDB의 테이블을 매핑하는 기술이다.
-
-  (RDB(Relational DataBase)는 관계형 데이터 모델에 기초를 둔 DB. Oracle을 생각하면 된다.)
+  * javax.persistance 패키지로 정의 된 API 그 자체
+  * 자바 퍼시스턴스 쿼리 언어 (JPQL)
+  * 객체/관계 메타데이터
 
 -----
 
@@ -161,6 +163,43 @@
 
 -----
 
-* 코드 설명
+ * 코드 설명
 
   이 코드는 Restful API형식으로 작성되었습니다.
+
+  먼저, 유저의 아이디, 이메일, 이름을 등록한다.ㅣ
+  ![Insomnia 2024-04-10 오후 10_36_22](https://github.com/namgisung/webserver-Restful-API/assets/109130108/0008bb03-3837-4f03-a012-202a9c0a4389)
+
+  그런다음, 조회를 해보면 이렇게 나온다.
+  ![Insomnia 2024-04-10 오후 10_36_39](https://github.com/namgisung/webserver-Restful-API/assets/109130108/16951a8f-0787-4998-a425-c8c2c38f0f5a)
+
+  다른 유저의 정보를 등록하고 조회하면 이렇게 나온다.
+  ![Insomnia 2024-04-10 오후 10_37_50](https://github.com/namgisung/webserver-Restful-API/assets/109130108/1a6fd2c7-6802-46bf-9def-a6000338863f)
+
+  전부 조회를 하면
+  ![Insomnia 2024-04-10 오후 10_37_58](https://github.com/namgisung/webserver-Restful-API/assets/109130108/68093ad2-31bb-4430-a1ba-7f9cdf3f75b7)
+
+  만약 두번째 유저의 정보를 수정하고 조회하면
+  ![Insomnia 2024-04-10 오후 10_39_10](https://github.com/namgisung/webserver-Restful-API/assets/109130108/df5d72b3-9856-44eb-8687-23716abaa489)
+
+  ![Insomnia 2024-04-10 오후 10_39_19](https://github.com/namgisung/webserver-Restful-API/assets/109130108/9558c86a-33a4-4720-83e2-c541d2b450d9)
+
+  그리고 두번째 유저의 정보를 삭제하면
+  ![Insomnia 2024-04-10 오후 10_39_43](https://github.com/namgisung/webserver-Restful-API/assets/109130108/9f98db5c-0461-4544-bfa1-5087e70e6ee8)
+  
+  ![Insomnia 2024-04-10 오후 10_40_00](https://github.com/namgisung/webserver-Restful-API/assets/109130108/c39b51e5-6949-4ae1-aeb8-34d838271a02)
+
+  나머지도 삭제하면
+  ![Insomnia 2024-04-10 오후 10_40_20](https://github.com/namgisung/webserver-Restful-API/assets/109130108/7fb99900-5d64-4078-b638-6c4d2aaed27d)
+  
+  ![Insomnia 2024-04-10 오후 10_40_28](https://github.com/namgisung/webserver-Restful-API/assets/109130108/80df6004-8860-4ff9-a2ba-c5c85f149637)
+
+  
+
+  
+
+  
+
+  
+  
+  
