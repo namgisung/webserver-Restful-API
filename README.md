@@ -21,6 +21,7 @@
  * 클라이언트와 서버가 데이터를 주고받는 방식 개념
 
 1. MVC 패턴
+   
   ![다운로드](https://github.com/namgisung/webserver-Restful-API/assets/109130108/ade48c69-cc0f-46d7-bab2-b8d6d2137cab)
   
   Model - View - Controller 의 약어
@@ -58,6 +59,7 @@
 -----
 
 2. Restful API
+
    ![다운로드44](https://github.com/namgisung/webserver-Restful-API/assets/109130108/12ccbf87-6414-4e74-b96e-516ee6deafb1)
 
   RESTful API는 현대 웹 서비스와 애플리케이션에서 데이터를 공유하고 통신하는 데 필수적인 기술입니다. 그것은 유연성, 확장성, 다양한 플랫폼과 언어의 지원을 제공하며, 개발자들이 효율적으로 시스템을 구축하고 관리할 수 있게 합니다. 
