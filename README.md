@@ -65,6 +65,7 @@
   RESTful API는 현대 웹 서비스와 애플리케이션에서 데이터를 공유하고 통신하는 데 필수적인 기술입니다. 그것은 유연성, 확장성, 다양한 플랫폼과 언어의 지원을 제공하며, 개발자들이 효율적으로 시스템을 구축하고 관리할 수 있게 합니다. 
   
    (1) REST
+   
   REST (Representational State Transfer) 란,
 
   HTTP URI 를 통해 자원(Resource)을 명시하고,
@@ -81,6 +82,7 @@
   - HEAD: header 정보 조회 (HEAD)
   
   (2) REST API
+  
   REST API는 REST 기반으로 서비스 API를 구현한 것으로,
 
   두 개의 컴퓨터가 인터넷을 통해 정보를 안전하게 교환하기 위해 사용하는 인터페이스이다.
