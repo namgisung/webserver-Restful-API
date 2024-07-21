@@ -11,4 +11,6 @@ public interface UserService {
 
     User find(String id);
     List<User> findAll();
+
+    void deleteAllUsers();
 }
