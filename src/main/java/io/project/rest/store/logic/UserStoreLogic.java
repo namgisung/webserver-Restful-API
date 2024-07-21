@@ -44,4 +44,9 @@ public class UserStoreLogic implements UserStore {
 
         return this.userMap.values().stream().collect(Collectors.toList());
     }
+
+    @Override
+    public void deleteAll() {
+        this.userMap.clear(); // 전체 사용자 삭제 구현
+    }
 }
