@@ -38,4 +38,8 @@ public class UserServiceLogic implements UserService {
     public List<User> findAll() {
         return this.userStore.retrieveAll();
     }
+
+    public void deleteAllUsers() {
+        userStore.deleteAll();
+    }
 }
